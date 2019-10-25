@@ -1,0 +1,124 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 1
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [{
+      "isExcluded": false,
+      "concept": {
+        "INVALID_REASON_CAPTION": "Valid",
+        "CONCEPT_ID": 4273023,
+        "STANDARD_CONCEPT": "S",
+        "CONCEPT_CODE": "365417009",
+        "VOCABULARY_ID": "SNOMED",
+        "CONCEPT_NAME": "QT interval - finding",
+        "DOMAIN_ID": "Condition",
+        "STANDARD_CONCEPT_CAPTION": "Standard",
+        "CONCEPT_CLASS_ID": "Clinical Finding",
+        "INVALID_REASON": "V"
+      },
+      "includeMapped": false,
+      "includeDescendants": true
+    }]},
+    "name": "QT interval",
+    "id": 0
+  }],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"Measurement": {
+        "Operator": null,
+        "RangeHigh": null,
+        "MeasurementTypeExclude": false,
+        "ValueAsConcept": null,
+        "CorrelatedCriteria": null,
+        "RangeHighRatio": null,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": [{
+          "INVALID_REASON_CAPTION": "Unknown",
+          "CONCEPT_ID": 8532,
+          "STANDARD_CONCEPT": null,
+          "CONCEPT_CODE": "F",
+          "VOCABULARY_ID": "Gender",
+          "CONCEPT_NAME": "FEMALE",
+          "DOMAIN_ID": "Gender",
+          "STANDARD_CONCEPT_CAPTION": "Unknown",
+          "CONCEPT_CLASS_ID": null,
+          "INVALID_REASON": null
+        }],
+        "Unit": null,
+        "RangeLowRatio": null,
+        "MeasurementType": null,
+        "MeasurementSourceConcept": null,
+        "VisitType": null,
+        "ValueAsNumber": {
+          "Op": "gt",
+          "Extent": null,
+          "Value": 450
+        },
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RangeLow": null,
+        "Abnormal": null,
+        "Age": null
+      }},
+      {"Measurement": {
+        "Operator": null,
+        "RangeHigh": null,
+        "MeasurementTypeExclude": false,
+        "ValueAsConcept": null,
+        "CorrelatedCriteria": null,
+        "RangeHighRatio": null,
+        "CodesetId": 0,
+        "ProviderSpecialty": null,
+        "Gender": [{
+          "INVALID_REASON_CAPTION": "Unknown",
+          "CONCEPT_ID": 8507,
+          "STANDARD_CONCEPT": null,
+          "CONCEPT_CODE": "M",
+          "VOCABULARY_ID": "Gender",
+          "CONCEPT_NAME": "MALE",
+          "DOMAIN_ID": "Gender",
+          "STANDARD_CONCEPT_CAPTION": "Unknown",
+          "CONCEPT_CLASS_ID": null,
+          "INVALID_REASON": null
+        }],
+        "Unit": null,
+        "RangeLowRatio": null,
+        "MeasurementType": null,
+        "MeasurementSourceConcept": null,
+        "VisitType": null,
+        "ValueAsNumber": {
+          "Op": "gt",
+          "Extent": null,
+          "Value": 460
+        },
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RangeLow": null,
+        "Abnormal": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

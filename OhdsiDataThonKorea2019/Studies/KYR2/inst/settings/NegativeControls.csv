@@ -1,0 +1,103 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+107,119,378256,Abnormal reflex,outcome
+107,119,4218106,Alcoholism,outcome
+107,119,317585,Aortic aneurysm,outcome
+107,119,440424,Aphasia,outcome
+107,119,439237,Assault,outcome
+107,119,378424,Astigmatism,outcome
+107,119,261880,Atelectasis,outcome
+107,119,134118,Atrophic condition of skin,outcome
+107,119,4224118,Bladder dysfunction,outcome
+107,119,80509,Bone cyst,outcome
+107,119,434626,Borderline personality disorder,outcome
+107,119,438407,Bulimia nervosa,outcome
+107,119,134765,Cachexia,outcome
+107,119,4172458,Candidiasis of skin,outcome
+107,119,436740,Cervical incompetence,outcome
+107,119,381581,Chalazion,outcome
+107,119,4307254,Closed fracture,outcome
+107,119,4047787,Colles' fracture,outcome
+107,119,198075,Condyloma acuminatum,outcome
+107,119,73302,Curvature of spine,outcome
+107,119,4242416,Cutis laxa,outcome
+107,119,433163,Deficiency of macronutrients,outcome
+107,119,4047269,Deformity of foot,outcome
+107,119,133228,Dental caries,outcome
+107,119,4095288,Diabetic coma with ketoacidosis,outcome
+107,119,4044391,Diabetic neuropathy,outcome
+107,119,443767,Diabetic oculopathy,outcome
+107,119,4174977,Diabetic retinopathy,outcome
+107,119,4132130,Dilatation of aorta,outcome
+107,119,4147672,Disease due to Papilloma virus,outcome
+107,119,4153380,Disorder of carotid artery,outcome
+107,119,4140510,Disorder of lymphatic vessel,outcome
+107,119,433440,Dysthymia,outcome
+107,119,376132,Ectropion,outcome
+107,119,440695,Encopresis,outcome
+107,119,438872,Excessive eating - polyphagia,outcome
+107,119,78804,Fibrocystic disease of breast,outcome
+107,119,4131595,Fracture of radius,outcome
+107,119,74855,Genital herpes simplex,outcome
+107,119,441788,Human papilloma virus infection,outcome
+107,119,76737,Hydrocele,outcome
+107,119,4029582,Hyperandrogenization syndrome,outcome
+107,119,195212,Hypercortisolism,outcome
+107,119,438134,Hypersomnia,outcome
+107,119,45768449,Hypertensive crisis,outcome
+107,119,140362,Hypoparathyroidism,outcome
+107,119,4322737,Infection of tooth,outcome
+107,119,4207688,Infectious enteritis,outcome
+107,119,79072,Inflammatory disorder of breast,outcome
+107,119,139099,Ingrowing nail,outcome
+107,119,4288544,Inguinal hernia,outcome
+107,119,444191,Injury of face,outcome
+107,119,444130,Injury of foot,outcome
+107,119,134222,Injury of forearm,outcome
+107,119,4029966,Intracranial aneurysm,outcome
+107,119,437409,Intracranial injury,outcome
+107,119,4297984,Local infection of wound,outcome
+107,119,4018050,Localized infection,outcome
+107,119,439840,Lymphangitis,outcome
+107,119,4163232,Mastitis,outcome
+107,119,440389,Mental retardation,outcome
+107,119,436100,Narcolepsy,outcome
+107,119,4262178,Neurogenic dysfunction of the urinary bladder,outcome
+107,119,193874,Nocturnal enuresis,outcome
+107,119,4171549,Nodular goiter,outcome
+107,119,442274,Oligomenorrhea,outcome
+107,119,4215978,Onychomycosis,outcome
+107,119,4171915,Orchitis,outcome
+107,119,380731,Otitis externa,outcome
+107,119,378160,Otorrhea,outcome
+107,119,192606,Paraplegia,outcome
+107,119,253796,Pneumothorax,outcome
+107,119,195501,Polycystic ovaries,outcome
+107,119,4164337,Polyp of large intestine,outcome
+107,119,4153877,Post-traumatic wound infection,outcome
+107,119,434319,Premature ejaculation,outcome
+107,119,373478,Presbyopia,outcome
+107,119,199876,Prolapse of female genital organs,outcome
+107,119,4295888,Prolapse of intestine,outcome
+107,119,194997,Prostatitis,outcome
+107,119,4146239,Pruritus of genital organs,outcome
+107,119,4285569,Pupillary disorder,outcome
+107,119,81336,Rectal prolapse,outcome
+107,119,380395,Retinal dystrophy,outcome
+107,119,141825,Simple goiter,outcome
+107,119,137054,Skin striae,outcome
+107,119,434630,Sleep-wake schedule disorder,outcome
+107,119,4195698,Tenosynovitis,outcome
+107,119,4339088,Testicular mass,outcome
+107,119,133141,Tinea pedis,outcome
+107,119,440814,Torticollis,outcome
+107,119,435140,Toxic effect of alcohol,outcome
+107,119,4270490,Tracheitis,outcome
+107,119,4028970,Tracheobronchitis,outcome
+107,119,4114197,Tumor of hypothalamus,outcome
+107,119,193326,Urge incontinence of urine,outcome
+107,119,4092565,Uterine prolapse,outcome
+107,119,140641,Verruca vulgaris,outcome
+107,119,197036,Vesicoureteric reflux,outcome
+107,119,133551,Vesicular eczema of hands and/or feet,outcome
+107,119,4223947,"Viral hepatitis, type A",outcome
+107,119,261326,Viral pneumonia,outcome

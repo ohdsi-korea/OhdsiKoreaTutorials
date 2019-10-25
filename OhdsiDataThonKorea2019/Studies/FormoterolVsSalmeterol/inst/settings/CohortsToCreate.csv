@@ -1,0 +1,9 @@
+atlasId,atlasName,cohortId,name
+382,[YJPARK] Formoterol user,382,YJPARK_Formoterol_user
+383,[YJPARK] Salmeterol user,383,YJPARK_Salmeterol_user
+180,[YJPARK] ICARUS : exacerbation Emergency Room or Inpatient,180,YJPARK_ICARUS__exacerbation_Emergency_Room_or_Inpatient
+392,[YJPARK] ischemic heart disease,392,YJPARK_ischemic_heart_disease
+393,[YJPARK] Arrhythmia,393,YJPARK_Arrhythmia
+394,[YJPARK] hypertension,394,YJPARK_hypertension
+384,[YJPARK] QT interval increase,384,YJPARK_QT_interval_increase
+183,[YJPARK] ICARUS : exacerbation by drug exposure,183,YJPARK_ICARUS__exacerbation_by_drug_exposure

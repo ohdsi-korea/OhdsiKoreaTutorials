@@ -1,0 +1,4 @@
+targetId,comparatorId,outcomeIds,excludedCovariateConceptIds,includedCovariateConceptIds
+128,117,138,,
+128,143,138,,
+117,143,138,,

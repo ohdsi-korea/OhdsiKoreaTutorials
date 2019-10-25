@@ -1,0 +1,1136 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21177450,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP327791",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "210 ML entecavir 0.05 MG/ML Oral Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21098911,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP327793",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "210 ML entecavir 0.05 MG/ML Oral Solution [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43165485,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP430179",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "210 ML entecavir 0.05 MG/ML Oral Solution [Baraclude] Box of 1",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43187461,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP430178",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "210 ML entecavir 0.05 MG/ML Oral Solution Box of 1",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Clinical Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43198472,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP430180",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "210 ML entecavir 0.05 MG/ML Oral Solution [Baraclude] Box of 1 by BRISTOL MYERS SQUIBB PHARMA (GRANDE BRETAGNE)",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21030157,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP327794",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "210 ML entecavir 0.05 MG/ML Oral Solution [Baraclude] by Bristol-Myers Squibb",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711246,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "306266",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711251,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485534",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19123211,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "607577",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711272,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485536",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML Oral Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19123212,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "607579",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML Oral Solution [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43184208,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495154",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML Oral Solution [Baraclude] Box of 1",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43173347,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495153",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML Oral Solution Box of 1",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21154178,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260022",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.05 MG/ML Oral Solution [Baraclude] by Bristol-Myers Squibb",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711247,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485432",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.5 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19080289,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "578455",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.5 MG [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43140184,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495156",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43162334,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495158",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Delayed Release Oral Tablet [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43140185,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495159",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Delayed Release Oral Tablet [Baraclude] Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43173348,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495157",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Delayed Release Oral Tablet Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43173349,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495160",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Delayed Release Oral Tablet [Baraclude] Box of 30 by BRISTOL MYERS SQUIBB PHARMA (GRANDE BRETAGNE)",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711248,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485434",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711273,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "578457",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 0.5 MG Oral Tablet [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21036254,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260018",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Oral Tablet [Baraclude] Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21114820,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260016",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Oral Tablet Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21055872,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260019",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Oral Tablet [Baraclude] Box of 30 by Bristol-Myers Squibb",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21055871,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260017",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 0.5 MG Oral Tablet [Baraclude] by Bristol-Myers Squibb",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711249,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485435",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 1 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19080290,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "578458",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 1 MG [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43217072,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495161",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43173350,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495164",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Delayed Release Oral Tablet [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43195227,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495165",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Delayed Release Oral Tablet [Baraclude] Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43162335,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495163",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Delayed Release Oral Tablet Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43162336,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495166",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Delayed Release Oral Tablet [Baraclude] Box of 30 by BRISTOL MYERS SQUIBB PHARMA (GRANDE BRETAGNE)",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711250,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485436",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 1 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1711274,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "578459",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir 1 MG Oral Tablet [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21134324,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260026",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Oral Tablet [Baraclude] Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21065695,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260023",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Oral Tablet Box of 30",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Box",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21065696,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260027",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Oral Tablet [Baraclude] Box of 30 by Bristol-Myers Squibb",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21046098,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP260025",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir 1 MG Oral Tablet [Baraclude] by Bristol-Myers Squibb",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43162333,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495151",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir Delayed Release Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43217071,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP495152",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "entecavir Delayed Release Oral Tablet [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36225771,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1161899",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Oral Liquid Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36225772,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1161900",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Oral Product",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40058762,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485535",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Oral Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40129569,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "607578",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Oral Solution [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40058763,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "485433",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40127500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "578456",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Oral Tablet [Baraclude]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36225773,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "1161901",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "entecavir Pill",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "Clinical Dose Group",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[DT20]entecavir",
+      "id": 0
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4001171,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "109841003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Liver cell carcinoma",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[DT20]outcome",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19011093,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "117466",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Tenofovir",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21055213,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP412198",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Tenofovir Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1710281,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "300195",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tenofovir disoproxil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1710314,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "393334",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Tenofovir disoproxil fumarate 300 MG",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Comp",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1710312,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "349251",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Tenofovir disoproxil fumarate 300 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40133800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "632025",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tenofovir disoproxil Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[DT20]tenofovir",
+      "id": 2
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 2,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 0,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "AdditionalCriteria": {
+    "CriteriaList": [{
+      "RestrictVisit": false,
+      "StartWindow": {
+        "UseEventEnd": false,
+        "Start": {
+          "Days": null,
+          "Coeff": -1
+        },
+        "End": {
+          "Days": 0,
+          "Coeff": 1
+        },
+        "UseIndexEnd": false
+      },
+      "IgnoreObservationPeriod": false,
+      "EndWindow": null,
+      "Criteria": {"ConditionOccurrence": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "ConditionTypeExclude": false,
+        "CodesetId": 1,
+        "ProviderSpecialty": null,
+        "Gender": null,
+        "VisitType": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "ConditionType": null,
+        "ConditionSourceConcept": null,
+        "StopReason": null,
+        "Age": null
+      }},
+      "Occurrence": {
+        "Type": 1,
+        "IsDistinct": false,
+        "Count": 0
+      }
+    }],
+    "Type": "ALL",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [{
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": null,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugExposure": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "DrugSourceConcept": null,
+          "CodesetId": 0,
+          "DrugTypeExclude": false,
+          "Quantity": null,
+          "DrugType": null,
+          "ProviderSpecialty": null,
+          "EffectiveDrugDose": null,
+          "Gender": null,
+          "DaysSupply": null,
+          "DoseUnit": null,
+          "VisitType": null,
+          "Refills": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RouteConcept": null,
+          "StopReason": null,
+          "LotNumber": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 1,
+          "IsDistinct": false,
+          "Count": 0
+        }
+      }],
+      "Type": "ALL",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "[DT20] without_entecavir",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 2,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

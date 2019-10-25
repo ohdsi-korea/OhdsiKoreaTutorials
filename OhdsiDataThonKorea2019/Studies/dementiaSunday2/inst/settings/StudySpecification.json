@@ -1,0 +1,1445 @@
+{
+  "skeletonType": "ComparativeEffectStudy",
+  "positiveControlSynthesisArgs": {
+    "outputIdOffset": 10000,
+    "precision": 0.01,
+    "riskWindowStart": 0,
+    "control": {
+      "maxIterations": 1000,
+      "autoSearch": true,
+      "seed": null,
+      "initialBound": 2,
+      "gridSteps": 10,
+      "threads": 1,
+      "startingVariance": 0.01,
+      "useKKTSwindle": false,
+      "lowerLimit": 0.01,
+      "attr_class": "cyclopsControl",
+      "cvRepetitions": 1,
+      "noiseLevel": "quiet",
+      "fold": 10,
+      "minCVData": 100,
+      "resetCoefficients": false,
+      "upperLimit": 20,
+      "cvType": "auto",
+      "selectorType": "auto",
+      "convergenceType": "gradient",
+      "tuneSwindle": 10,
+      "maxBoundCount": 5,
+      "tolerance": 1.0E-6,
+      "algorithm": "ccd"
+    },
+    "washoutPeriod": 183,
+    "modelType": "survival",
+    "addExposureDaysToEnd": true,
+    "minOutcomeCountForModel": 50,
+    "firstOutcomeOnly": true,
+    "maxSubjectsForModel": 250000,
+    "minOutcomeCountForInjection": 25,
+    "prior": {
+      "variance": [1],
+      "useCrossValidation": true,
+      "priorType": "laplace",
+      "exclude": [0],
+      "neighborhood": null,
+      "attr_class": "cyclopsPrior",
+      "forceIntercept": false,
+      "graph": null
+    },
+    "effectSizes": [
+      1.5,
+      2,
+      4
+    ],
+    "covariateSettings": {
+      "VisitCountMediumTerm": false,
+      "ObservationShortTerm": true,
+      "shortTermStartDays": -30,
+      "MeasurementRangeGroupShortTerm": false,
+      "ConditionOccurrenceLongTerm": false,
+      "DrugEraStartLongTerm": false,
+      "VisitCountShortTerm": false,
+      "Chads2Vasc": true,
+      "ConditionGroupEraStartLongTerm": false,
+      "ConditionEraShortTerm": false,
+      "Dcsi": true,
+      "DrugGroupEraLongTerm": true,
+      "DrugGroupEraShortTerm": true,
+      "ConditionEraStartLongTerm": false,
+      "temporal": false,
+      "DemographicsIndexMonth": true,
+      "ConditionOccurrencePrimaryInpatientLongTerm": false,
+      "ConditionEraAnyTimePrior": false,
+      "addDescendantsToInclude": false,
+      "ConditionGroupEraStartMediumTerm": false,
+      "ProcedureOccurrenceLongTerm": true,
+      "DrugExposureLongTerm": false,
+      "DrugEraStartShortTerm": false,
+      "DistinctIngredientCountMediumTerm": false,
+      "DistinctMeasurementCountShortTerm": false,
+      "MeasurementRangeGroupLongTerm": true,
+      "ConditionGroupEraOverlapping": false,
+      "attr_fun": "getDbDefaultCovariateData",
+      "MeasurementRangeGroupMediumTerm": false,
+      "DrugGroupEraStartMediumTerm": false,
+      "MeasurementAnyTimePrior": false,
+      "MeasurementMediumTerm": false,
+      "includedCovariateIds": [],
+      "ConditionOccurrenceAnyTimePrior": false,
+      "DistinctConditionCountLongTerm": false,
+      "MeasurementValueLongTerm": false,
+      "DrugEraShortTerm": false,
+      "DrugGroupEraAnyTimePrior": false,
+      "DrugEraOverlapping": false,
+      "ConditionOccurrencePrimaryInpatientAnyTimePrior": false,
+      "ConditionEraMediumTerm": false,
+      "ConditionEraOverlapping": false,
+      "ConditionEraStartShortTerm": false,
+      "ObservationAnyTimePrior": false,
+      "VisitConceptCountShortTerm": false,
+      "DemographicsEthnicity": true,
+      "DistinctIngredientCountLongTerm": false,
+      "ConditionOccurrencePrimaryInpatientShortTerm": false,
+      "DemographicsAgeGroup": true,
+      "DistinctProcedureCountShortTerm": false,
+      "DistinctObservationCountMediumTerm": false,
+      "includedCovariateConceptIds": [],
+      "DrugGroupEraStartShortTerm": false,
+      "addDescendantsToExclude": false,
+      "DrugEraLongTerm": false,
+      "DistinctConditionCountShortTerm": false,
+      "ConditionGroupEraShortTerm": true,
+      "ConditionEraStartMediumTerm": false,
+      "VisitCountLongTerm": false,
+      "DemographicsRace": true,
+      "ProcedureOccurrenceAnyTimePrior": false,
+      "DistinctObservationCountLongTerm": false,
+      "attr_class": "covariateSettings",
+      "ProcedureOccurrenceMediumTerm": false,
+      "CharlsonIndex": true,
+      "DemographicsPriorObservationTime": false,
+      "MeasurementShortTerm": true,
+      "DistinctProcedureCountMediumTerm": false,
+      "ConditionEraLongTerm": false,
+      "DrugGroupEraStartLongTerm": false,
+      "DemographicsGender": true,
+      "DeviceExposureAnyTimePrior": false,
+      "ObservationLongTerm": true,
+      "DemographicsIndexYearMonth": false,
+      "ConditionOccurrenceMediumTerm": false,
+      "longTermStartDays": -365,
+      "DemographicsAge": false,
+      "DrugGroupEraOverlapping": true,
+      "DistinctMeasurementCountLongTerm": false,
+      "MeasurementRangeGroupAnyTimePrior": false,
+      "DistinctConditionCountMediumTerm": false,
+      "DrugGroupEraMediumTerm": false,
+      "ProcedureOccurrenceShortTerm": true,
+      "ObservationMediumTerm": false,
+      "ConditionGroupEraAnyTimePrior": false,
+      "Chads2": true,
+      "DrugExposureAnyTimePrior": false,
+      "DeviceExposureLongTerm": true,
+      "DemographicsTimeInCohort": false,
+      "DistinctMeasurementCountMediumTerm": false,
+      "MeasurementValueShortTerm": false,
+      "DeviceExposureMediumTerm": false,
+      "ConditionGroupEraStartShortTerm": false,
+      "ConditionOccurrencePrimaryInpatientMediumTerm": false,
+      "MeasurementLongTerm": true,
+      "DemographicsIndexYear": true,
+      "MeasurementValueMediumTerm": false,
+      "DrugEraStartMediumTerm": false,
+      "MeasurementValueAnyTimePrior": false,
+      "DistinctObservationCountShortTerm": false,
+      "DrugEraMediumTerm": false,
+      "ConditionGroupEraLongTerm": true,
+      "DrugExposureShortTerm": false,
+      "DistinctIngredientCountShortTerm": false,
+      "DeviceExposureShortTerm": true,
+      "mediumTermStartDays": -180,
+      "DemographicsPostObservationTime": false,
+      "VisitConceptCountLongTerm": false,
+      "VisitConceptCountMediumTerm": false,
+      "excludedCovariateConceptIds": [],
+      "ConditionGroupEraMediumTerm": false,
+      "DrugExposureMediumTerm": false,
+      "DistinctProcedureCountLongTerm": false,
+      "DrugEraAnyTimePrior": false,
+      "endDays": 0,
+      "ConditionOccurrenceShortTerm": false
+    },
+    "riskWindowEnd": 30,
+    "firstExposureOnly": true,
+    "removePeopleWithPriorOutcomes": true
+  },
+  "organizationName": "OHDSI",
+  "description": "Hazard Ratio Estimation for Incidence of Dementia After Anesthesia",
+  "negativeControlExposureCohortDefinition": {},
+  "version": "v2.7.0",
+  "estimationAnalysisSettings": {
+    "analysisSpecification": {
+      "targetComparatorOutcomes": [
+        {
+          "targetId": 128,
+          "comparatorId": 117,
+          "includedCovariateConceptIds": [],
+          "excludedCovariateConceptIds": [],
+          "outcomeIds": [138]
+        },
+        {
+          "targetId": 128,
+          "comparatorId": 143,
+          "includedCovariateConceptIds": [],
+          "excludedCovariateConceptIds": [],
+          "outcomeIds": [138]
+        },
+        {
+          "targetId": 117,
+          "comparatorId": 143,
+          "includedCovariateConceptIds": [],
+          "excludedCovariateConceptIds": [],
+          "outcomeIds": [138]
+        }
+      ],
+      "cohortMethodAnalysisList": [{
+        "comparatorType": null,
+        "fitOutcomeModel": true,
+        "getDbCohortMethodDataArgs": {
+          "restrictToCommonPeriod": false,
+          "removeDuplicateSubjects": "keep all",
+          "maxCohortSize": 0,
+          "excludeDrugsFromCovariates": false,
+          "covariateSettings": {
+            "VisitCountMediumTerm": false,
+            "ObservationShortTerm": true,
+            "shortTermStartDays": -30,
+            "MeasurementRangeGroupShortTerm": false,
+            "ConditionOccurrenceLongTerm": false,
+            "DrugEraStartLongTerm": false,
+            "VisitCountShortTerm": false,
+            "Chads2Vasc": true,
+            "ConditionGroupEraStartLongTerm": false,
+            "ConditionEraShortTerm": false,
+            "Dcsi": true,
+            "DrugGroupEraLongTerm": true,
+            "DrugGroupEraShortTerm": true,
+            "ConditionEraStartLongTerm": false,
+            "temporal": false,
+            "DemographicsIndexMonth": true,
+            "ConditionOccurrencePrimaryInpatientLongTerm": false,
+            "ConditionEraAnyTimePrior": false,
+            "addDescendantsToInclude": false,
+            "ConditionGroupEraStartMediumTerm": false,
+            "ProcedureOccurrenceLongTerm": true,
+            "DrugExposureLongTerm": false,
+            "DrugEraStartShortTerm": false,
+            "DistinctIngredientCountMediumTerm": false,
+            "DistinctMeasurementCountShortTerm": false,
+            "MeasurementRangeGroupLongTerm": true,
+            "ConditionGroupEraOverlapping": false,
+            "attr_fun": "getDbDefaultCovariateData",
+            "MeasurementRangeGroupMediumTerm": false,
+            "DrugGroupEraStartMediumTerm": false,
+            "MeasurementAnyTimePrior": false,
+            "MeasurementMediumTerm": false,
+            "includedCovariateIds": [],
+            "ConditionOccurrenceAnyTimePrior": false,
+            "DistinctConditionCountLongTerm": false,
+            "MeasurementValueLongTerm": false,
+            "DrugEraShortTerm": false,
+            "DrugGroupEraAnyTimePrior": false,
+            "DrugEraOverlapping": false,
+            "ConditionOccurrencePrimaryInpatientAnyTimePrior": false,
+            "ConditionEraMediumTerm": false,
+            "ConditionEraOverlapping": false,
+            "ConditionEraStartShortTerm": false,
+            "ObservationAnyTimePrior": false,
+            "VisitConceptCountShortTerm": false,
+            "DemographicsEthnicity": true,
+            "DistinctIngredientCountLongTerm": false,
+            "ConditionOccurrencePrimaryInpatientShortTerm": false,
+            "DemographicsAgeGroup": true,
+            "DistinctProcedureCountShortTerm": false,
+            "DistinctObservationCountMediumTerm": false,
+            "includedCovariateConceptIds": [],
+            "DrugGroupEraStartShortTerm": false,
+            "addDescendantsToExclude": false,
+            "DrugEraLongTerm": false,
+            "DistinctConditionCountShortTerm": false,
+            "ConditionGroupEraShortTerm": true,
+            "ConditionEraStartMediumTerm": false,
+            "VisitCountLongTerm": false,
+            "DemographicsRace": true,
+            "ProcedureOccurrenceAnyTimePrior": false,
+            "DistinctObservationCountLongTerm": false,
+            "attr_class": "covariateSettings",
+            "ProcedureOccurrenceMediumTerm": false,
+            "CharlsonIndex": true,
+            "DemographicsPriorObservationTime": false,
+            "MeasurementShortTerm": true,
+            "DistinctProcedureCountMediumTerm": false,
+            "ConditionEraLongTerm": false,
+            "DrugGroupEraStartLongTerm": false,
+            "DemographicsGender": true,
+            "DeviceExposureAnyTimePrior": false,
+            "ObservationLongTerm": true,
+            "DemographicsIndexYearMonth": false,
+            "ConditionOccurrenceMediumTerm": false,
+            "longTermStartDays": -365,
+            "DemographicsAge": false,
+            "DrugGroupEraOverlapping": true,
+            "DistinctMeasurementCountLongTerm": false,
+            "MeasurementRangeGroupAnyTimePrior": false,
+            "DistinctConditionCountMediumTerm": false,
+            "DrugGroupEraMediumTerm": false,
+            "ProcedureOccurrenceShortTerm": true,
+            "ObservationMediumTerm": false,
+            "ConditionGroupEraAnyTimePrior": false,
+            "Chads2": true,
+            "DrugExposureAnyTimePrior": false,
+            "DeviceExposureLongTerm": true,
+            "DemographicsTimeInCohort": false,
+            "DistinctMeasurementCountMediumTerm": false,
+            "MeasurementValueShortTerm": false,
+            "DeviceExposureMediumTerm": false,
+            "ConditionGroupEraStartShortTerm": false,
+            "ConditionOccurrencePrimaryInpatientMediumTerm": false,
+            "MeasurementLongTerm": true,
+            "DemographicsIndexYear": true,
+            "MeasurementValueMediumTerm": false,
+            "DrugEraStartMediumTerm": false,
+            "MeasurementValueAnyTimePrior": false,
+            "DistinctObservationCountShortTerm": false,
+            "DrugEraMediumTerm": false,
+            "ConditionGroupEraLongTerm": true,
+            "DrugExposureShortTerm": false,
+            "DistinctIngredientCountShortTerm": false,
+            "DeviceExposureShortTerm": true,
+            "mediumTermStartDays": -180,
+            "DemographicsPostObservationTime": false,
+            "VisitConceptCountLongTerm": false,
+            "VisitConceptCountMediumTerm": false,
+            "excludedCovariateConceptIds": [
+              4170416,
+              4013057,
+              2105242,
+              2110623,
+              4145786,
+              4335020,
+              2102513,
+              4110978,
+              4194195,
+              4100218,
+              40490493,
+              44517113,
+              44517114,
+              2110624,
+              44517106,
+              44807569,
+              4120974,
+              4134864,
+              4139041,
+              4110976,
+              4111151,
+              4332593,
+              2110773,
+              2110775,
+              4013507,
+              4082997,
+              4171773,
+              4188502,
+              2720880,
+              4040310,
+              4078199,
+              4240411,
+              4243068,
+              4261817,
+              4333414,
+              4333415,
+              40493462,
+              44807568,
+              2106215,
+              4086418,
+              4118897,
+              4141679,
+              40488921,
+              2110621,
+              2720893,
+              4260402,
+              4271850,
+              2000190,
+              4086417,
+              4118898,
+              44517110,
+              2110772,
+              4085257,
+              4174669,
+              4332594,
+              2110622,
+              2110774,
+              4067986,
+              4107247,
+              40490491,
+              44517107
+            ],
+            "ConditionGroupEraMediumTerm": false,
+            "DrugExposureMediumTerm": false,
+            "DistinctProcedureCountLongTerm": false,
+            "DrugEraAnyTimePrior": false,
+            "endDays": 0,
+            "ConditionOccurrenceShortTerm": false
+          },
+          "studyStartDate": null,
+          "washoutPeriod": 0,
+          "firstExposureOnly": false,
+          "attr_class": "args",
+          "studyEndDate": null
+        },
+        "trimByPs": false,
+        "createStudyPopArgs": {
+          "restrictToCommonPeriod": false,
+          "removeDuplicateSubjects": "keep all",
+          "minDaysAtRisk": 1,
+          "addExposureDaysToStart": false,
+          "riskWindowStart": 30,
+          "washoutPeriod": 0,
+          "attr_class": "args",
+          "censorAtNewRiskWindow": false,
+          "addExposureDaysToEnd": true,
+          "priorOutcomeLookback": 99999,
+          "removeSubjectsWithPriorOutcome": false,
+          "riskWindowEnd": 0,
+          "firstExposureOnly": false
+        },
+        "description": "Analysis 2",
+        "trimByPsArgs": {
+          "trimFraction": 0.05,
+          "attr_class": "args"
+        },
+        "targetType": null,
+        "attr_class": "cmAnalysis",
+        "stratifyByPs": true,
+        "stratifyByPsAndCovariates": false,
+        "matchOnPsAndCovariatesArgs": {
+          "caliper": 0.2,
+          "caliperScale": "standardized logit",
+          "maxRatio": 1,
+          "covariateIds": [],
+          "attr_class": "args"
+        },
+        "trimByPsToEquipoise": false,
+        "matchOnPs": false,
+        "stratifyByPsAndCovariatesArgs": {
+          "baseSelection": "all",
+          "covariateIds": [],
+          "numberOfStrata": 5,
+          "attr_class": "args"
+        },
+        "matchOnPsArgs": {
+          "caliper": 0.2,
+          "caliperScale": "standardized logit",
+          "maxRatio": 1,
+          "attr_class": "args",
+          "stratificationColumns": []
+        },
+        "stratifyByPsArgs": {
+          "baseSelection": "all",
+          "numberOfStrata": 5,
+          "attr_class": "args",
+          "stratificationColumns": []
+        },
+        "matchOnPsAndCovariates": false,
+        "analysisId": 1,
+        "createPsArgs": {
+          "stopOnError": false,
+          "excludeCovariateIds": [],
+          "prior": {
+            "variance": [1],
+            "useCrossValidation": true,
+            "priorType": "laplace",
+            "exclude": [0],
+            "neighborhood": null,
+            "attr_class": "cyclopsPrior",
+            "forceIntercept": false,
+            "graph": null
+          },
+          "errorOnHighCorrelation": false,
+          "control": {
+            "maxIterations": 1000,
+            "autoSearch": true,
+            "seed": null,
+            "initialBound": 2,
+            "gridSteps": 10,
+            "threads": 1,
+            "startingVariance": 0.01,
+            "useKKTSwindle": false,
+            "lowerLimit": 0.01,
+            "attr_class": "cyclopsControl",
+            "cvRepetitions": 10,
+            "noiseLevel": "silent",
+            "fold": 10,
+            "minCVData": 100,
+            "resetCoefficients": false,
+            "upperLimit": 20,
+            "cvType": "auto",
+            "selectorType": "auto",
+            "convergenceType": "gradient",
+            "tuneSwindle": 10,
+            "maxBoundCount": 5,
+            "tolerance": 2.0E-7,
+            "algorithm": "ccd"
+          },
+          "attr_class": "args",
+          "includeCovariateIds": [],
+          "maxCohortSizeForFitting": 250000
+        },
+        "trimByPsToEquipoiseArgs": {
+          "bounds": [
+            0.25,
+            0.75
+          ],
+          "attr_class": "args"
+        },
+        "fitOutcomeModelArgs": {
+          "excludeCovariateIds": [],
+          "useCovariates": false,
+          "prior": {
+            "variance": [1],
+            "useCrossValidation": true,
+            "priorType": "laplace",
+            "exclude": [0],
+            "neighborhood": null,
+            "attr_class": "cyclopsPrior",
+            "forceIntercept": false,
+            "graph": null
+          },
+          "inversePtWeighting": false,
+          "control": {
+            "maxIterations": 1000,
+            "autoSearch": true,
+            "seed": null,
+            "initialBound": 2,
+            "gridSteps": 10,
+            "threads": 1,
+            "startingVariance": 0.01,
+            "useKKTSwindle": false,
+            "lowerLimit": 0.01,
+            "attr_class": "cyclopsControl",
+            "cvRepetitions": 10,
+            "noiseLevel": "quiet",
+            "fold": 10,
+            "minCVData": 100,
+            "resetCoefficients": false,
+            "upperLimit": 20,
+            "cvType": "auto",
+            "selectorType": "auto",
+            "convergenceType": "gradient",
+            "tuneSwindle": 10,
+            "maxBoundCount": 5,
+            "tolerance": 2.0E-7,
+            "algorithm": "ccd"
+          },
+          "modelType": "cox",
+          "stratified": true,
+          "attr_class": "args",
+          "interactionCovariateIds": [],
+          "includeCovariateIds": []
+        },
+        "createPs": true
+      }]
+    },
+    "estimationType": "ComparativeCohortAnalysis"
+  },
+  "skeletonVersion": "v0.0.1",
+  "negativeControlOutcomeCohortDefinition": {
+    "detectOnDescendants": true,
+    "domains": [
+      "condition",
+      "procedure"
+    ],
+    "occurrenceType": "all"
+  },
+  "createdDate": null,
+  "conceptSetCrossReference": [
+    {
+      "targetName": "negativeControlOutcomes",
+      "conceptSetId": 85,
+      "propertyName": "outcomeId",
+      "targetIndex": 0
+    },
+    {
+      "targetName": "negativeControlOutcomes",
+      "conceptSetId": 85,
+      "propertyName": "outcomeId",
+      "targetIndex": 1
+    },
+    {
+      "targetName": "negativeControlOutcomes",
+      "conceptSetId": 85,
+      "propertyName": "outcomeId",
+      "targetIndex": 2
+    },
+    {
+      "targetName": "estimationAnalysisSettings.analysisSpecification.cohortMethodAnalysisList.getDbCohortMethodDataArgs.covariateSettings",
+      "conceptSetId": 77,
+      "propertyName": "excludedCovariateConceptIds",
+      "targetIndex": 0
+    }
+  ],
+  "createdBy": null,
+  "cohortDefinitions": [
+    {
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {
+          "StartDate": null,
+          "EndDate": null
+        },
+        "ConceptSets": [
+          {
+            "expression": {"items": [{
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4174669,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "50697003",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "General anesthesia",
+                "DOMAIN_ID": "Procedure",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Procedure",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            }]},
+            "name": "team2_General Anesthesia",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4313570,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "86480004",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Open reduction of fracture",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4286744,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "36939002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Open reduction of fracture of femur",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "tema2_Femur Surgery",
+            "id": 1
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4078199,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "18946005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Epidural anesthesia",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4332593,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "231249005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Spinal anesthesia",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "team2_Regional Anesthesia",
+            "id": 2
+          }
+        ],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "StartDate",
+          "Offset": 90
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [{
+          "expression": {
+            "CriteriaList": [{
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": null,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": null,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"ProcedureOccurrence": {
+                "ProcedureType": null,
+                "CorrelatedCriteria": null,
+                "CodesetId": 1,
+                "ProcedureSourceConcept": null,
+                "Quantity": null,
+                "ProviderSpecialty": null,
+                "Gender": null,
+                "ProcedureTypeExclude": false,
+                "VisitType": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "Modifier": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }],
+            "Type": "ALL",
+            "DemographicCriteriaList": [],
+            "Groups": [],
+            "Count": null
+          },
+          "name": "femur surgery",
+          "description": null
+        }],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 0,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 60
+            }
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "createdDate": "2019-08-10T07:13:49.830+0000",
+      "createdBy": "datathon2",
+      "name": "team2_femur surgery with general anesthesia",
+      "modifiedDate": "2019-08-10T08:08:16.100+0000",
+      "description": null,
+      "expressionType": "SIMPLE_EXPRESSION",
+      "modifiedBy": "datathon2",
+      "id": 128
+    },
+    {
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {
+          "StartDate": null,
+          "EndDate": null
+        },
+        "ConceptSets": [
+          {
+            "expression": {"items": [{
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4174669,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "50697003",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "General anesthesia",
+                "DOMAIN_ID": "Procedure",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Procedure",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            }]},
+            "name": "team2_General Anesthesia",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4313570,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "86480004",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Open reduction of fracture",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4286744,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "36939002",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Open reduction of fracture of femur",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "tema2_Femur Surgery",
+            "id": 1
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4078199,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "18946005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Epidural anesthesia",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4332593,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "231249005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Spinal anesthesia",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "team2_Regional Anesthesia",
+            "id": 2
+          }
+        ],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "StartDate",
+          "Offset": 90
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [{
+          "expression": {
+            "CriteriaList": [{
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": null,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": null,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"ProcedureOccurrence": {
+                "ProcedureType": null,
+                "CorrelatedCriteria": null,
+                "CodesetId": 1,
+                "ProcedureSourceConcept": null,
+                "Quantity": null,
+                "ProviderSpecialty": null,
+                "Gender": null,
+                "ProcedureTypeExclude": false,
+                "VisitType": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "Modifier": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 2,
+                "IsDistinct": false,
+                "Count": 1
+              }
+            }],
+            "Type": "ALL",
+            "DemographicCriteriaList": [],
+            "Groups": [],
+            "Count": null
+          },
+          "name": "femur surgery",
+          "description": null
+        }],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"ProcedureOccurrence": {
+            "ProcedureType": null,
+            "CorrelatedCriteria": null,
+            "CodesetId": 2,
+            "ProcedureSourceConcept": null,
+            "Quantity": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "ProcedureTypeExclude": false,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Modifier": null,
+            "Age": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 60
+            }
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "createdDate": "2019-08-10T06:58:11.483+0000",
+      "createdBy": "datathon2",
+      "name": "team2_femur surgery with regional anesthesia",
+      "modifiedDate": "2019-08-10T08:09:47.823+0000",
+      "description": null,
+      "expressionType": "SIMPLE_EXPRESSION",
+      "modifiedBy": "datathon2",
+      "id": 117
+    },
+    {
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {
+          "StartDate": null,
+          "EndDate": null
+        },
+        "ConceptSets": [
+          {
+            "expression": {"items": [{
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4182210,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "52448006",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "Dementia",
+                "DOMAIN_ID": "Condition",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Clinical Finding",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            }]},
+            "name": "team2_dementia",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 715997,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "135447",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "donepezil",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 757627,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "4637",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "Galantamine",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 701322,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "6719",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "Memantine",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 733523,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "183379",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "rivastigmine",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "team2_anti_dementia_drug",
+            "id": 1
+          }
+        ],
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [
+            {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": false,
+              "CodesetId": 0,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": true,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "StopReason": null,
+              "Age": {
+                "Op": "gte",
+                "Extent": null,
+                "Value": 60
+              }
+            }},
+            {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "DrugSourceConcept": null,
+              "CodesetId": 1,
+              "DrugTypeExclude": false,
+              "Quantity": null,
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": true,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }}
+          ],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "createdDate": "2019-08-10T07:26:50.460+0000",
+      "createdBy": "datathon2",
+      "name": "team2_outcome_dementia",
+      "modifiedDate": "2019-08-10T08:05:26.593+0000",
+      "description": null,
+      "expressionType": "SIMPLE_EXPRESSION",
+      "modifiedBy": "datathon2",
+      "id": 138
+    },
+    {
+      "expression": {
+        "ExpressionLimit": {"Type": "First"},
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {
+          "StartDate": null,
+          "EndDate": null
+        },
+        "ConceptSets": [
+          {
+            "expression": {"items": [{
+              "isExcluded": false,
+              "concept": {
+                "INVALID_REASON_CAPTION": "Valid",
+                "CONCEPT_ID": 4174669,
+                "STANDARD_CONCEPT": "S",
+                "CONCEPT_CODE": "50697003",
+                "VOCABULARY_ID": "SNOMED",
+                "CONCEPT_NAME": "General anesthesia",
+                "DOMAIN_ID": "Procedure",
+                "STANDARD_CONCEPT_CAPTION": "Standard",
+                "CONCEPT_CLASS_ID": "Procedure",
+                "INVALID_REASON": "V"
+              },
+              "includeMapped": false,
+              "includeDescendants": true
+            }]},
+            "name": "team2_General Anesthesia",
+            "id": 0
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4078199,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "18946005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Epidural anesthesia",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 4332593,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "231249005",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Spinal anesthesia",
+                  "DOMAIN_ID": "Procedure",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Procedure",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "team2_Regional Anesthesia",
+            "id": 1
+          }
+        ],
+        "EndStrategy": {"DateOffset": {
+          "DateField": "StartDate",
+          "Offset": 90
+        }},
+        "cdmVersionRange": ">=5.0.0",
+        "CensoringCriteria": [],
+        "AdditionalCriteria": {
+          "CriteriaList": [
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": null,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": null,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"ProcedureOccurrence": {
+                "ProcedureType": null,
+                "CorrelatedCriteria": null,
+                "CodesetId": 1,
+                "ProcedureSourceConcept": null,
+                "Quantity": null,
+                "ProviderSpecialty": null,
+                "Gender": null,
+                "ProcedureTypeExclude": false,
+                "VisitType": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "Modifier": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 0,
+                "IsDistinct": false,
+                "Count": 0
+              }
+            },
+            {
+              "RestrictVisit": false,
+              "StartWindow": {
+                "UseEventEnd": false,
+                "Start": {
+                  "Days": null,
+                  "Coeff": -1
+                },
+                "End": {
+                  "Days": null,
+                  "Coeff": 1
+                },
+                "UseIndexEnd": false
+              },
+              "IgnoreObservationPeriod": false,
+              "EndWindow": null,
+              "Criteria": {"ProcedureOccurrence": {
+                "ProcedureType": null,
+                "CorrelatedCriteria": null,
+                "CodesetId": 0,
+                "ProcedureSourceConcept": null,
+                "Quantity": null,
+                "ProviderSpecialty": null,
+                "Gender": null,
+                "ProcedureTypeExclude": false,
+                "VisitType": null,
+                "First": null,
+                "OccurrenceStartDate": null,
+                "Modifier": null,
+                "Age": null
+              }},
+              "Occurrence": {
+                "Type": 0,
+                "IsDistinct": false,
+                "Count": 0
+              }
+            }
+          ],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "QualifiedLimit": {"Type": "First"},
+        "InclusionRules": [],
+        "PrimaryCriteria": {
+          "CriteriaList": [{"VisitOccurrence": {
+            "OccurrenceEndDate": null,
+            "VisitLength": null,
+            "CorrelatedCriteria": null,
+            "VisitSourceConcept": null,
+            "CodesetId": null,
+            "VisitTypeExclude": false,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "PlaceOfServiceLocation": null,
+            "PlaceOfService": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": {
+              "Op": "gte",
+              "Extent": null,
+              "Value": 60
+            }
+          }}],
+          "PrimaryCriteriaLimit": {"Type": "First"},
+          "ObservationWindow": {
+            "PostDays": 0,
+            "PriorDays": 0
+          }
+        }
+      },
+      "createdDate": "2019-08-10T07:40:22.473+0000",
+      "createdBy": "datathon2",
+      "name": "team2_without_surgery",
+      "modifiedDate": "2019-08-11T00:51:35.477+0000",
+      "description": null,
+      "expressionType": "SIMPLE_EXPRESSION",
+      "modifiedBy": "datathon2",
+      "id": 143
+    }
+  ],
+  "name": "team2_pop_estim II",
+  "modifiedDate": null,
+  "modifiedBy": null,
+  "conceptSets": [
+    {
+      "expression": {"items": []},
+      "name": "team2_negative_control",
+      "id": 85
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4078199,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "18946005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Epidural anesthesia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4174669,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "50697003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "General anesthesia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4332593,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "231249005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Spinal anesthesia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[team2] without variables",
+      "id": 77
+    }
+  ],
+  "doPositiveControlSynthesis": false,
+  "id": 53,
+  "packageName": "dementiaSunday2",
+  "negativeControls": []
+}

@@ -1,0 +1,11 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+382,383,257007,Allergic rhinitis,outcome
+382,383,378425,Blepharitis,outcome
+382,383,75860,Constipation,outcome
+382,383,196523,Diarrhea,outcome
+382,383,440674,Gout,outcome
+382,383,140673,Hypothyroidism,outcome
+382,383,139099,Ingrowing nail,outcome
+382,383,80809,Rheumatoid arthritis,outcome
+382,383,26662,Testicular hypofunction,outcome
+382,383,432870,Thrombocytopenic disorder,outcome

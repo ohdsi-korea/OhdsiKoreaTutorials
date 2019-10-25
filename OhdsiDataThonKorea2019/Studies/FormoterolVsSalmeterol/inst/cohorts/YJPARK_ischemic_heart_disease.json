@@ -1,0 +1,555 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45766075,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "703164000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute anterior ST segment elevation myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 319844,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "413439005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute ischemic heart disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 312327,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "57054005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4296653,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "401303003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute ST segment elevation myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45766116,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "703213009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute ST segment elevation myocardial infarction of inferior wall",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 444406,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "70422006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Acute subendocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 316427,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "50570003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Aneurysm of coronary vessels",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 438168,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "65340007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Aneurysm of heart",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 321318,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194828000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Angina pectoris",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 438172,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194863005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Atrial septal defect as current complication following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 435561,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194861007",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Certain current complications following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 315286,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "413838009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Chronic ischemic heart disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 317576,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "53741008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Coronary arteriosclerosis",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108215,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194821006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Coronary thrombosis not resulting in myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108678,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194862000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hemopericardium as current complication following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4092936,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "281091000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Ischemic myocardial dysfunction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4329847,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "22298006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 314666,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1755008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Old myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4119953,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "233846000",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Post-infarction ventricular septal defect",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 319038,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "66189004",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Postmyocardial infarction syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 315296,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "4557003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Preinfarction syndrome",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108679,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194865003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108219,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194866002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Rupture of chordae tendinae as current complication following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108220,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194867006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Rupture of papillary muscle as current complication following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4176969,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "363294003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Sequelae of cardiovascular disorders",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4124683,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "233823002",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Silent myocardial ischemia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108217,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194856005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Subsequent myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108677,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194857001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Subsequent myocardial infarction of anterior wall",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108218,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194858006",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Subsequent myocardial infarction of inferior wall",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4108680,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "194868001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Thrombosis of atrium, auricular appendage, and ventricle as current complications following acute myocardial infarction",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }
+    ]},
+    "name": "ischemic heart disease",
+    "id": 0
+  }],
+  "EndStrategy": null,
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": true,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

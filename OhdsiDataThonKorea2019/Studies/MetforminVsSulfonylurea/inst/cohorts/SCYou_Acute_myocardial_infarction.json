@@ -1,0 +1,585 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312327,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57054005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434376,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "54329005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction of anterior wall",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 438170,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73795002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute myocardial infarction of inferior wall",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 444406,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70422006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute subendocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Acute MI",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1322184,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32968",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clopidogrel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40241186,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1116632",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Ticagrelor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Clopidogrel or Ticagrelor",
+      "id": 2
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 1
+  }},
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 0,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": [
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 9203,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "ER",
+                "VOCABULARY_ID": "Visit",
+                "CONCEPT_NAME": "Emergency Room Visit",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 262,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "ERIP",
+                "VOCABULARY_ID": "Visit",
+                "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 9201,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "IP",
+                "VOCABULARY_ID": "Visit",
+                "CONCEPT_NAME": "Inpatient Visit",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32211,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "02",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to other short term general hospital for inpatient care.",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32214,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "05",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to another type of institution for inpatient care (designated cancer center or childrens hospital)",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32217,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "09",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Admitted as an inpatient to this hospital",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 8717,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "21",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Inpatient Hospital",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 8970,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "27",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Inpatient Long-term Care",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 8892,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "28",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Other Inpatient Care",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32228,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "62",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to an inpatient rehabilitation facility including distinct parts units of a hospital",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32236,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "82",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a short term general hospital for inpatient care with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32238,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "84",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a facility that provides custodial or supportive care with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32239,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "85",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a designated cancer center or children?s hospital with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32240,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "86",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to home under care of organized home health service organization with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32241,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "87",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to court/law enforcement with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32242,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "88",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a federal health care facility with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32243,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "89",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a hospital-based Medicare approved swing bed with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32244,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "90",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to an inpatient rehabilitation facility (IRF) including rehabilitation distinct part units of a hospital with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32245,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "91",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a Medicare certified long term care hospital (LTCH) with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32247,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "93",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a psychiatric hospital/distinct part unit of a hospital with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32248,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "94",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to a critical access hospital (CAH) with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 32249,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "95",
+                "VOCABULARY_ID": "UB04 Pt dis status",
+                "CONCEPT_NAME": "Discharged/transferred to another type of health care institution not defined elsewhere in this code list with a planned acute care hospital inpatient readmission",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 581383,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP generated",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Inpatient Cardiac Care Facility",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 581379,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP generated",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Inpatient Critical Care Facility",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 581382,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP generated",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Inpatient Intensive Care Facility",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 8870,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "23",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Emergency Room - Hospital",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              },
+              {
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_ID": 581381,
+                "STANDARD_CONCEPT": null,
+                "CONCEPT_CODE": "OMOP generated",
+                "VOCABULARY_ID": "Place of Service",
+                "CONCEPT_NAME": "Emergency Room Critical Care Facility",
+                "DOMAIN_ID": "Visit",
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "CONCEPT_CLASS_ID": null,
+                "INVALID_REASON": null
+              }
+            ],
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Inpatient Only",
+      "description": "Inpatient Only"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 28,
+              "Coeff": -1
+            },
+            "UseIndexEnd": null
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 2,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Ticagrelor or prasugrel starts 28 days before",
+      "description": "Ticagrelor or prasugrel starts 28 days before"
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 0,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
