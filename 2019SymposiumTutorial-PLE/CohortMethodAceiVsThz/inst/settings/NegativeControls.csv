@@ -1,0 +1,77 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+88,89,434165,Abnormal cervical smear,outcome
+88,89,436409,Abnormal pupil,outcome
+88,89,199192,Abrasion and/or friction burn of trunk without infection,outcome
+88,89,4088290,Absence of breast,outcome
+88,89,4092879,Absent kidney,outcome
+88,89,44783954,Acid reflux,outcome
+88,89,75911,Acquired hallux valgus,outcome
+88,89,137951,Acquired keratoderma,outcome
+88,89,77965,Acquired trigger finger,outcome
+88,89,376707,Acute conjunctivitis,outcome
+88,89,4103640,Amputated foot,outcome
+88,89,73241,Anal and rectal polyp,outcome
+88,89,133655,Burn of forearm,outcome
+88,89,73560,Calcaneal spur,outcome
+88,89,434327,Cannabis abuse,outcome
+88,89,4213540,Cervical somatic dysfunction,outcome
+88,89,140842,Changes in skin texture,outcome
+88,89,81378,Chondromalacia of patella,outcome
+88,89,432303,Cocaine abuse,outcome
+88,89,4201390,Colostomy present,outcome
+88,89,46269889,Complication due to Crohn's disease,outcome
+88,89,134438,Contact dermatitis,outcome
+88,89,78619,Contusion of knee,outcome
+88,89,201606,Crohn's disease,outcome
+88,89,76786,Derangement of knee,outcome
+88,89,4115402,Difficulty sleeping,outcome
+88,89,45757370,Disproportion of reconstructed breast,outcome
+88,89,433111,Effects of hunger,outcome
+88,89,433527,Endometriosis,outcome
+88,89,4170770,Epidermoid cyst,outcome
+88,89,4092896,Feces contents abnormal,outcome
+88,89,259995,Foreign body in orifice,outcome
+88,89,40481632,Ganglion cyst,outcome
+88,89,4166231,Genetic predisposition,outcome
+88,89,433577,Hammer toe,outcome
+88,89,4231770,Hereditary thrombophilia,outcome
+88,89,440329,Herpes zoster without complication,outcome
+88,89,4012570,High risk sexual behavior,outcome
+88,89,4012934,Homocystinuria,outcome
+88,89,441788,Human papilloma virus infection,outcome
+88,89,4201717,Ileostomy present,outcome
+88,89,374375,Impacted cerumen,outcome
+88,89,4344500,Impingement syndrome of shoulder region,outcome
+88,89,139099,Ingrowing nail,outcome
+88,89,444132,Injury of knee,outcome
+88,89,196168,Irregular periods,outcome
+88,89,432593,Kwashiorkor,outcome
+88,89,434203,Late effect of contusion,outcome
+88,89,438329,Late effect of motor vehicle accident,outcome
+88,89,195873,Leukorrhea,outcome
+88,89,4083487,Macular drusen,outcome
+88,89,4103703,Melena,outcome
+88,89,4209423,Nicotine dependence,outcome
+88,89,377572,Noise effects on inner ear,outcome
+88,89,136368,Non-toxic multinodular goiter,outcome
+88,89,40480893,Nonspecific tuberculin test reaction,outcome
+88,89,140648,Onychomycosis due to dermatophyte,outcome
+88,89,438130,Opioid abuse,outcome
+88,89,4091513,Passing flatus,outcome
+88,89,4202045,Postviral fatigue syndrome,outcome
+88,89,373478,Presbyopia,outcome
+88,89,46286594,Problem related to lifestyle,outcome
+88,89,439790,Psychalgia,outcome
+88,89,81634,Ptotic breast,outcome
+88,89,380706,Regular astigmatism,outcome
+88,89,141932,Senile hyperkeratosis,outcome
+88,89,36713918,Somatic dysfunction of lumbar region,outcome
+88,89,443172,"Splinter of face, without major open wound",outcome
+88,89,81151,Sprain of ankle,outcome
+88,89,72748,Strain of rotator cuff capsule,outcome
+88,89,378427,Tear film insufficiency,outcome
+88,89,437264,Tobacco dependence syndrome,outcome
+88,89,194083,Vaginitis and vulvovaginitis,outcome
+88,89,140641,Verruca vulgaris,outcome
+88,89,4115367,Wrist joint pain,outcome
+88,89,440193,Wristdrop,outcome
