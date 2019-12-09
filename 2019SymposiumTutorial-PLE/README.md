@@ -10,12 +10,6 @@ Materials for the population-level estimation tutorial. This workshop is for res
 - Thorough understanding of **how to define cohorts using OHDSI's ATLAS** - See the [Defining Cohorts chapter](https://ohdsi.github.io/TheBookOfOhdsi/Cohorts.html)
 - [Recommended] Ability to program in **R** - There are many R courses available, for example the [Coursera](https://www.coursera.org/learn/r-programming).
 
-## Required Reading
-
-Before taking this course, students must read:
-
-- Graham et al., [Cardiovascular, Bleeding, and Mortality Risks in Elderly Medicare Patients Treated With Dabigatran or Warfarin for Nonvalvular Atrial Fibrillation](https://doi.org/10.1161/CIRCULATIONAHA.114.012061), Circulation. 2015 Jan 13;131(2):157-64.
-
 ## Recommended Reading
 
 - The [Book of OHDSI](http://book.ohdsi.org) in general.
