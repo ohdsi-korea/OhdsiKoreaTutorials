@@ -1,5 +1,5 @@
 # Tutorial-PLP (PatientLevelPrediction)
-=======================================
+
 Materials for the patient-level prediction tutorial in 2019 OHDSI KOREA Symposium. This workshop is for researchers who want to design and execute clinical prediction models using OHDSI tools. These models predict a diagnostic or prognostic outcome based on a combination of patient characteristics, e.g. demographic information, disease history, and treatment history using machine learning.
 
 ## Course Prerequisites
