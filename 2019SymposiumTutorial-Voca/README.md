@@ -1,4 +1,4 @@
-Tutorial-PLE
+Tutorial-CDM and Vocabulary
 ============
 
 Materials for the Vocabulary and Common Data Model tutorial. This workshop is for researchers who want to know about OMOP standardized vocabularies and OMOP Common Data Model.
