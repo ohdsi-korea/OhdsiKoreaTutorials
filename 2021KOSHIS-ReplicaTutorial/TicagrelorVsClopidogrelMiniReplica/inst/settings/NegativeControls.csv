@@ -1,0 +1,97 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+2572,2573,378256,Abnormal reflex,outcome
+2572,2573,4218106,Alcoholism,outcome
+2572,2573,440424,Aphasia,outcome
+2572,2573,439237,Assault,outcome
+2572,2573,378424,Astigmatism,outcome
+2572,2573,261880,Atelectasis,outcome
+2572,2573,134118,Atrophic condition of skin,outcome
+2572,2573,4224118,Bladder dysfunction,outcome
+2572,2573,80509,Bone cyst,outcome
+2572,2573,434626,Borderline personality disorder,outcome
+2572,2573,438407,Bulimia nervosa,outcome
+2572,2573,134765,Cachexia,outcome
+2572,2573,4172458,Candidiasis of skin,outcome
+2572,2573,436740,Cervical incompetence,outcome
+2572,2573,381581,Chalazion,outcome
+2572,2573,4307254,Closed fracture,outcome
+2572,2573,4047787,Colles' fracture,outcome
+2572,2573,198075,Condyloma acuminatum,outcome
+2572,2573,73302,Curvature of spine,outcome
+2572,2573,4242416,Cutis laxa,outcome
+2572,2573,433163,Deficiency of macronutrients,outcome
+2572,2573,4047269,Deformity of foot,outcome
+2572,2573,133228,Dental caries,outcome
+2572,2573,4095288,Diabetic coma with ketoacidosis,outcome
+2572,2573,4044391,Diabetic neuropathy,outcome
+2572,2573,4147672,Disease due to Papilloma virus,outcome
+2572,2573,4140510,Disorder of lymphatic vessel,outcome
+2572,2573,433440,Dysthymia,outcome
+2572,2573,376132,Ectropion,outcome
+2572,2573,440695,Encopresis,outcome
+2572,2573,438872,Excessive eating - polyphagia,outcome
+2572,2573,443767,Eye disorder due to diabetes mellitus,outcome
+2572,2573,78804,Fibrocystic disease of breast,outcome
+2572,2573,4131595,Fracture of radius,outcome
+2572,2573,74855,Genital herpes simplex,outcome
+2572,2573,441788,Human papilloma virus infection,outcome
+2572,2573,76737,Hydrocele,outcome
+2572,2573,4029582,Hyperandrogenization syndrome,outcome
+2572,2573,195212,Hypercortisolism,outcome
+2572,2573,438134,Hypersomnia,outcome
+2572,2573,45768449,Hypertensive crisis,outcome
+2572,2573,140362,Hypoparathyroidism,outcome
+2572,2573,4322737,Infection of tooth,outcome
+2572,2573,4207688,Infectious enteritis,outcome
+2572,2573,79072,Inflammatory disorder of breast,outcome
+2572,2573,139099,Ingrowing nail,outcome
+2572,2573,4288544,Inguinal hernia,outcome
+2572,2573,444191,Injury of face,outcome
+2572,2573,444130,Injury of foot,outcome
+2572,2573,134222,Injury of forearm,outcome
+2572,2573,4297984,Local infection of wound,outcome
+2572,2573,4018050,Localized infection,outcome
+2572,2573,439840,Lymphangitis,outcome
+2572,2573,4163232,Mastitis,outcome
+2572,2573,440389,Mental retardation,outcome
+2572,2573,436100,Narcolepsy,outcome
+2572,2573,4262178,Neurogenic dysfunction of the urinary bladder,outcome
+2572,2573,193874,Nocturnal enuresis,outcome
+2572,2573,4171549,Nodular goiter,outcome
+2572,2573,442274,Oligomenorrhea,outcome
+2572,2573,4215978,Onychomycosis,outcome
+2572,2573,4171915,Orchitis,outcome
+2572,2573,380731,Otitis externa,outcome
+2572,2573,378160,Otorrhea,outcome
+2572,2573,192606,Paraplegia,outcome
+2572,2573,253796,Pneumothorax,outcome
+2572,2573,195501,Polycystic ovaries,outcome
+2572,2573,4164337,Polyp of large intestine,outcome
+2572,2573,4153877,Post-traumatic wound infection,outcome
+2572,2573,434319,Premature ejaculation,outcome
+2572,2573,373478,Presbyopia,outcome
+2572,2573,199876,Prolapse of female genital organs,outcome
+2572,2573,4295888,Prolapse of intestine,outcome
+2572,2573,194997,Prostatitis,outcome
+2572,2573,4146239,Pruritus of genital organs,outcome
+2572,2573,4285569,Pupillary disorder,outcome
+2572,2573,81336,Rectal prolapse,outcome
+2572,2573,380395,Retinal dystrophy,outcome
+2572,2573,141825,Simple goiter,outcome
+2572,2573,137054,Skin striae,outcome
+2572,2573,434630,Sleep-wake schedule disorder,outcome
+2572,2573,4195698,Tenosynovitis,outcome
+2572,2573,4339088,Testicular mass,outcome
+2572,2573,133141,Tinea pedis,outcome
+2572,2573,440814,Torticollis,outcome
+2572,2573,435140,Toxic effect of alcohol,outcome
+2572,2573,4270490,Tracheitis,outcome
+2572,2573,4028970,Tracheobronchitis,outcome
+2572,2573,4114197,Tumor of hypothalamus,outcome
+2572,2573,193326,Urge incontinence of urine,outcome
+2572,2573,4092565,Uterine prolapse,outcome
+2572,2573,140641,Verruca vulgaris,outcome
+2572,2573,197036,Vesicoureteric reflux,outcome
+2572,2573,133551,Vesicular eczema of hands and/or feet,outcome
+2572,2573,4223947,"Viral hepatitis, type A",outcome
+2572,2573,261326,Viral pneumonia,outcome
